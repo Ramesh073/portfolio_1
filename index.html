@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramesh Prasanna's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Include any additional styles here if necessary */
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">PORTFOLIO</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#internship">Internships</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="intro">
+            <h2>I'm <span>Ramesh</span></h2>
+            <p>This is my official portfolio website showcasing all my projects, experiences, and skills.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+        <div class="image">
+            <img src="shape5.png" alt="Decorative Shape" class="shape">
+            <img src="ramesh.png" alt="Ramesh Prasanna" class="boy">
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>ABOUT</h2>
+        <p>
+            I'm Ramesh Prasanna, a passionate student currently pursuing Electronics and Communication Engineering at Kalaignar Karunanidhi Institute of Technology, Coimbatore.<br><br>
+            Originally from Erode, my educational journey has been shaped by institutions like St. Joseph's Higher Secondary School, where I completed my schooling.<br><br>
+            Currently maintaining a commendable CGPA of 8.53 up to the 4th semester of my Electronics and Communication Engineering program at Kalaignar Karunanidhi Institute of Technology, Coimbatore.
+        </p>
+    </section>
+
+    <section id="internship" class="internship-section">
+        <h2>INTERNSHIPS & WORKSHOPS</h2>
+        <div class="internship-content">
+            <h3>Internship Experience:</h3>
+            <p>
+                Engaged in a comprehensive internship in Web Development at Ether Info Tech from December 19th to December 26th, 2022. During this time, I gained practical experience and honed my skills in developing web applications, contributing actively to real-world projects.
+            </p>
+            <h3>Certifications and Workshops:</h3>
+            <p>
+                <strong>Workshop Participation:</strong><br>
+                Participated in an enriching workshop on Ethical Hacking conducted by Ether InfoTech on December 27th, 2021. This workshop equipped me with valuable insights into cybersecurity practices and ethical hacking techniques, enhancing my understanding of digital security principles.<br><br>
+                <strong>Google Cloud Generative AI Certification:</strong><br>
+                Attained certification in Google Cloud Generative AI, showcasing expertise in leveraging Google Cloud technologies for artificial intelligence applications, including generative models.<br><br>
+                <strong>AI Foundation Certification:</strong><br>
+                Completed the AI Foundation certification through Springboard, consolidating knowledge and skills in foundational concepts of artificial intelligence, preparing for advanced studies and practical applications in the field.
+            </p>
+        </div>
+    </section>
+
+    <section id="project" class="project-section">
+        <h2>PROJECTS</h2>
+        <div class="project">
+            <h3>SIGN LANGUAGE TO TEXT CONVERSION USING FLEX SENSOR</h3>
+            <p>
+                Speech is the easiest way for communication in the world. It becomes difficult for speech-impaired people to communicate with normal people as they use sign language for communication.<br><br>
+                In this project, we developed an Arduino-based sign language to text conversion system to help deaf people. Sign language is a natural way of communication between normal and deaf individuals, mostly dependent on hand gesture recognition.<br><br>
+                Sometimes, it is not easy for normal people to recognize the signs properly and understand what they want to say. The intention of the gloves is to make the lifestyle of deaf and dumb people easier.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>CONTACT</h2>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 6369196593</p>
+            <p><strong>Email:</strong> rameshdio043@gmail.com</p>
+            <p><strong>Location:</strong> Erode, Tamil Nadu, India</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ramesh Prasanna. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Hamburger menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
